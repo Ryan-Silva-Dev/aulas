@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+em HTML id = # em css
+em HTML é class = em css é .
+*/
+/*  
+é possivel aplicar mais de uma classe a um elemento apenas nomeie e não precisa de virgula para separar basta um espaço
+*/
+/* consigo colocar um id junto com uma class mas o id sobrepoe*/
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(55, 0, 255);
+
+}
+#principal{
+    text-align: center;
+    background-color: brown;
+}
+h2{
+    color: rgb(0, 183, 255);
+
+}
+.basico{
+    background-color: chartreuse ;
+}
+.intermediario{
+    background-color: coral;
+
+}
+.avançado{
+    background-color: darkblue;
+
+}
+.testecomatagspan{
+    color: black;
+    font-weight: 900;
+}

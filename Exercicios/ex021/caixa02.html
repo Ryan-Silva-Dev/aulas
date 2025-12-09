@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(0, 0, 0);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(109, 112, 114);
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: rgb(124, 121, 121);
+            padding: 3px;
+
+        }
+        nav>a{
+            text-decoration: none;
+            color: rgba(255, 0, 0, 0.719);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(76, 78, 80);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgb(60, 61, 61);
+            padding: 5px;
+        }
+        article>aside{
+            background-color: rgb(163, 156, 146);
+        }
+        footer{
+            background-color: rgb(255, 0, 0);
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <p>esportes</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde recusandae rerum commodi est, voluptatum dolorem quam soluta incidunt quo officiis corporis explicabo obcaecati alias itaque odio, inventore cumque eaque sint.</p>
+                    <aside>
+                        <p>artigo escrito po jose da silva</p>
+                    </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por curso em video</p>
+    </footer>
+    
+</body>
+</html>

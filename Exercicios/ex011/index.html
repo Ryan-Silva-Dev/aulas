@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut Icon" href="Iconcreme-Halloween-Cat.ico" rel="img/x.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html 5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abir em dispositivos diferentes ou almente e 
+        diminua o tamanho do navegador</p>
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/p.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="imagens/m.png" type="image/png">
+            <img src="imagens/g.png" alt="imagem flexivel">
+        </picture>
+        <h1>reproduzindo audio</h1>
+        <p>vamos reproduzir um audio</p>
+        <audio preload="metadata" autoplay controls>
+            <source src="midia/d.mp3" type="audio/mpeg">
+            <source src="midia/d.ogg" type="audio/mpeg">
+            <source src="midia/d.wav" type="audio/wav">
+            <p>infelismente seu navegador não consegue tocar esse audio</p>
+            <a href="midia/d.mp3">clique aqui para baixar o audio</a>
+        </audio>
+
+    
+</body>
+</html>
