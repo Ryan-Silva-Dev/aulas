@@ -3,24 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doc</title>
+    <title>fundo fixo de tela</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*
+        A ordem correta dos valores é: 
+        color (cor), 
+        image (imagem), 
+        position (posição), 
+        repeat (repetição), 
+        size (tamanho). obs: pode funcionar mas não funciona.
+        attachment (anexo)  
+        */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
+
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px  solid black;
             border-radius: 15px;
         }
+        /*
+        A ordem correta dos valores é: 
+        color (cor), 
+        image (imagem), 
+        position (posição), 
+        repeat (repetição), 
+        attachment (anexo)  
+        size (tamanho).
+        */
     </style>
 </head>
 <body>
