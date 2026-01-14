@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <H1>exemplo de formulario</H1>
+    <fieldset>
+        <legend>cadastro</legend>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="Email">
+            </p>
+            <p>
+                <label for="intel">Telefone</label>
+                <input type="tel" name="tel" id="intel" autocomplete="tel" required pattern="^\(\d{2}\)\d{5}-\d{4}$">
+            </p>
+            <!--Dps tu tem que saber o que é RegEx-->
+            <p>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
