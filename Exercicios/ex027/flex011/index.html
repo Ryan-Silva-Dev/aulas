@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        /*flex: initial; é igual ao valor inicial da tag flex (0 1 auto);*/
+
+        /*flex: none; nada flexivel*/
+
+        /*flex: auto; maximo de flexibilidade*/
+
+        /*flex: 3; é a mesma coisa que flex: 3 1 auto*/
+        div.container{
+            background-color: salmon;
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.iten{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            
+            
+        }
+        div#i1{
+            /*flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: 150px;*/
+
+            flex: 0 1 150px ;
+        }
+        div#i2{
+            /*flex-grow: 3;
+            flex-shrink: 2;
+            flex-basis: 150px;*/
+
+            flex: 3 2 150px ;
+
+
+            
+            
+            
+        }
+        div#i3{
+           /* flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 150px;*/
+
+            flex: 1 1 150px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="i1" class="iten">A</div>
+        <div id="i2" class="iten">B</div>
+        <div id="i3" class="iten">C</div>
+       
+    </div>
+</body>
+</html>
